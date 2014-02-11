@@ -1,0 +1,100 @@
+/* CLASS STYLES by DLSMIZEL 2014 */
+
+body
+{
+ margin: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 24px; color: #42454d; background-color:#fff;
+/*
+ zoom: 1.5;
+    -moz-transform: scale(1.5); 
+    -webkit-transform: scale(1.5);
+ */
+}
+
+.web_content
+{ max-width: 990px; height: auto; margin: auto; }
+
+.content_darkgray
+{ background-color: #2e323a; }
+
+.content_gray
+{ background-color: #f3f3f3; }
+
+.content_white
+{ background-color: #fff; }
+
+/* -------------------------------
+    images_
+--------------------------------- */
+
+img
+{ border: none; }
+
+
+/* -------------------------------
+    links_
+--------------------------------- */
+
+a
+{ color:#d53044; }
+
+a:hover
+{ color:#991d38; }
+
+
+a.link_button_block
+{ display:block; margin-top: 2px; font-size: 18px; font-weight:bold; font-family: 'Montserrat', sans-serif; color: #717171; text-align: center; padding: 10px 40px 10px 40px; }
+
+    a.link_button_block.red
+    { background-color:#d53044; color:#fff; border: 1px solid #991d38;  border-radius:3px; }
+
+    a.link_button_block.red:hover
+    { background-color:#991d38; color:#fff; text-decoration: none; border: 1px solid #991d38;  border-radius:4px }
+
+
+a.link_button_inline
+{ display:inline; font-size: 18px; font-weight:bold; font-family: 'Montserrat', sans-serif; text-align: center; padding: 10px 40px 10px 40px; border-radius: 4px;  }
+
+    a.link_button_inline.red
+    {  color: #fff; background-color: #d53044; border: 1px solid #991d38; }
+
+    a.link_button_inline.red:hover
+    {  color: #fff; background-color: #991d38; border: 1px solid #991d38; text-decoration: none; }
+
+
+/* -------------------------------
+    form_
+--------------------------------- */
+
+/*transition: all 0.3s ease-out 0s;*/
+
+input
+{ width:93%; padding:12px 10px; margin-bottom: 20px; border:1px solid #d9d9d9; background-color:#ffffff; border-radius:5px; float:left; font-family:Arial;  }
+
+    input:focus
+    { border:1px solid #d53044; background-color:#ffffff; outline:none;}
+
+select
+{ width:100%; height:42px; padding:10px; border:1px solid #bbbbbb; background-color:#fff; border-radius:5px; float:left; margin-bottom: 20px; font-family:Arial;  }
+
+    select:hover
+    { cursor:pointer; }
+
+    select:focus
+    { border:1px solid #009933; background-color:#ffffff; outline:none;}
+
+option
+{ border-bottom:1px solid #bbbbbb; padding:10px; width:100%; font-family:Arial; }
+
+
+textarea
+{ width:93%; height:100px; padding:12px 10px; margin-bottom: 20px; border:1px solid #d9d9d9; background-color:#ffffff; border-radius:5px; float:left; margin-bottom: 20px; }
+
+    textarea:focus
+    { border:1px solid #d53044; background-color:#ffffff; outline:none; }
+
+.submit_button
+{ background-color:#d53044; color:#fff; width:100%; border:#991d38 1px solid; cursor:pointer; font-family: 'Montserrat', sans-serif; }
+
+    .submit_button:hover
+    { background-color: #991d38; }
+

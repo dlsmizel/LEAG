@@ -1,0 +1,164 @@
+/* ID STYLES by DLSMIZEL 2014 */
+
+/*------------------------------------------
+    HEADER_
+------------------------------------------*/
+#nav_body
+{ background-color: #2e323a; z-index:1000; position:fixed; border-bottom:#262a32 solid 1px; }
+
+    #nav_body a
+    { background-color: #42454d; padding:10px 40px 10px 40px; color:#fff; font-size: 14px; float:left; } 
+
+    #nav_body a.active
+    { text-decoration: none; background-color:#d53044; }
+	
+	#nav_body a:hover
+    { text-decoration: none; background-color:#d53044; }
+
+    #nav_body #leag_logo
+    { border-radius:0; width:219px; height:78px; background: url(../images/imgs.png) no-repeat scroll 0 0 transparent; float:left; padding:0 !important; margin:0;}
+
+
+/*------------------------------------------
+    BANNER_
+------------------------------------------*/
+#banner
+{ background:#000000 url(../images/banner.jpg) no-repeat bottom; text-align:center; height:360px; padding-top:140px; }
+
+	#banner h1
+	{ font-weight:normal; color:#ffffff !important; width:600px; margin:193px auto; text-shadow:1px 1px 5px #000; }
+
+
+
+/*------------------------------------------
+    ABOUT_
+------------------------------------------*/
+#about
+{ text-align:center; }
+
+	#about h1
+	{ font-weight:normal; color:#2e323a !important; margin-bottom:20px;}
+	
+	#about h2
+	{ font-weight:normal; color:#cccccc !important; padding-bottom:20px; border-bottom:#cccccc solid 1px; margin-bottom:20px; }
+	
+	img
+	{ width:310px; height:310px; float:left; }
+
+
+/*------------------------------------------
+    FEATURES_
+------------------------------------------*/
+#features
+{ text-align:center; background-color:#2e323a; }
+
+	#features h1
+	{ font-weight:normal; color:#fff !important; margin-bottom:20px;}
+	
+	#features h2
+	{ font-weight:normal; color:#cccccc !important; padding-bottom:20px; border-bottom:#cccccc solid 1px; margin-bottom:20px; }
+	
+	#features h3
+	{ color:#fff; }
+	
+	#features p
+	{ color:#cccccc; }
+	
+	div.features_imgs
+	{ width:162px; height:112px; margin:auto; } 
+	
+		div.features_imgs.first
+		{ background: url(../images/features.png) no-repeat scroll 0 0 transparent; }
+		
+		div.features_imgs.second
+		{ background: url(../images/features.png) no-repeat scroll -162px 0 transparent; }
+		
+		div.features_imgs.third
+		{ background: url(../images/features.png) no-repeat scroll -324px 0 transparent; }
+		
+		div.features_imgs.fourth
+		{ background: url(../images/features.png) no-repeat scroll -486px 0 transparent; }
+	
+
+
+/*------------------------------------------
+    LEAGUES_
+------------------------------------------*/
+#leagues
+{ text-align:center; }
+
+	#leagues .content
+	{ width:33.33%; float:left; }
+	
+	#leagues h1
+	{ font-weight:normal; color:#2e323a !important; margin-bottom:20px;}
+	
+	#leagues h2
+	{ font-weight:normal; color:#cccccc !important; padding-bottom:20px; border-bottom:#ccc solid 1px; margin-bottom:20px; }
+	
+	#leagues h3 a
+	{ float:left; font-size:24pt; font-weight:normal; color:#2e323a; margin-bottom: 20px; font-family: 'Open Sans', sans-serif; }
+		
+		#leagues h3 a:hover
+		{ color:#d53044; text-decoration:none; }
+	
+	#leagues a
+	{ float:right; }
+	
+	#leagues p
+	{ font-size:18px !important; line-height:24px; }
+	
+	img
+	{ width:292px; height:292px; background-color:cccccc; margin:0 auto 30px auto; } 
+
+
+/*------------------------------------------
+    QUOTES_
+------------------------------------------*/
+#quotes
+{ background:#000000 url(../images/quotes.jpg) no-repeat bottom; text-align:center; height:195px; }
+
+	#quotes h1
+	{ font-weight:normal; color:#ffffff !important; line-height:1.2; }
+	
+	#quotes h2
+	{ font-weight:normal; color:#ffffff !important; line-height:1.2; text-shadow: 1px 1px 2px #000;  }
+	
+	#quotes h3
+	{ color:#ffffff !important; text-shadow: 1px 1px 2px #000; }
+
+
+
+/*------------------------------------------
+    CONTACT_
+------------------------------------------*/
+
+#contact
+{ text-align:center; background-color:#f3f3f3; border-top:#e2e2e2 1px solid; border-bottom:#e2e2e2 1px solid; }
+
+	#contact h1
+	{ font-weight:normal; color:#2e323a !important; margin-bottom:20px;}
+	
+	#contact h2
+	{ font-weight:normal; color:#cccccc !important; padding-bottom:20px; border-bottom:#ccc solid 1px; margin-bottom:20px; }
+	
+	#contact h3
+	{ margin-bottom:10px; }
+	
+	#contact .content
+	{ width:33.33%; float:left; }
+	
+		#contact .content p
+		{ font-size:18px !important; line-height:24px; margin-bottom:40px; }
+
+
+/*------------------------------------------
+    FOOTER_
+------------------------------------------*/
+
+#footer
+{ background-color:#ffffff; height:100px; color:#889093; height:4em; text-align:center; }
+
+	#footer p
+	{ font-size:14px; }
+	
